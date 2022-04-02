@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+.info-text {
+    width: 80%;
+}
+
+.info-text p {
+    font-style: italic;
+    /* font-weight: bold; */
+    color: #86898f;
+    padding-left: 10px;
+    margin: 0;
+}
+.info-text a {
+    /* padding-left: 10px; */
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+.card {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.10);
+    /* padding-top: 10 px;
+    padding-bottom: 10px; */
+}
+
+/* .card ol {
+    padding-left: 30px;
+} */
+
+.card ul {
+    padding-left: 30px;
+}
+
+.bgColorLigthGreen {
+    background-color:rgb(233, 255, 200)  ;
+}
+.bgColorLightPink {
+    background-color: rgb(255, 226, 231);
+}
+.bgColorBurlyWood {
+    background-color: rgb(239, 227, 212);
+}
+.bgColorBisque {
+    background-color: rgb(255, 241, 223);
+}
+
+.container {
+    /* margin: 20px 30px; */
+    padding: 10px;
+    max-width: 750px;
+    margin: auto;
+}
+
+a {
+    color: #86898f;
+    text-decoration: none;
+}
+
+a:active{
+    color:#0f141e;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #2b2828;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:darkblue;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: black;
+    color: #f1f1f1;
+    /* font-size: larger; */
+    padding: 5px 15px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+hr {
+    border: 1px solid #2b2828;
+    border-radius: 50%;
+}
+
+td {
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+
+.info-text {
+    padding-bottom : 10px;
+}
+
+.hobbyList {
+    padding: 0;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.hobbyList li:hover {
+    background-color: #cccccc;
+    ;
+}
+
+.skillsTable {
+    width: 100%;
+    padding-left: 20px;
+    border-collapse: collapse;
+}
+
+.skillsTable th {
+    background-color: #cccccc;
+}
+
+.skillsTable td, .skillsTable th {
+    border: 1px solid #ccc;
+}
+
+.skillsTable tr:nth-child(even) {
+    background-color:aliceblue;
+}
+
+.skillsTable tr:hover {
+    background-color:#cccccc;
+}
+
+.formStyle h2 {
+    text-align: center;
+    
+}
+
+.form-group {
+    display: block;
+    color: #86898f;
+}
+
+
+.formStyle input, textarea {
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    border-bottom: 1px solid #86898f;
+    margin-bottom: 10px;
+}
+
+.formStyle label {
+    margin-bottom: 10px;
+}
+
+.formStyle input, textarea {
+    font-style: italic;
+}
+
+.formRow {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.formRow .form-group {
+    display: inline-block;
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.formRow .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+
+    .info {
+        display: block;
+        /* width: auto; */
+        /* object-position: 50% 50%;; */
+        margin-right: 0;
+        text-align: center;
+
+    }
+
+    .info-text {
+        width: auto;
+    }
+
+    .formRow {
+        display: block;
+        width: 100%;
+    }
+
+    .formRow .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+
+}
+
